@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans&family=Racing+Sans+One&display=swap');
+
+body {
+  font-family: 'DM Sans', sans-serif;
+  padding: 50px;
+  max-width: 750px;
+  margin: auto;
+}
+
+h1 {
+  font-size: 50px;
+}
+
+.headings {
+  font-family: 'Racing Sans One', cursive;
+}
+
+.subPoint1 {
+  margin-left: 30px;
+  list-style-type: circle;
+}
+
+li {
+  padding-bottom: 5px;
+}
+
+footer {
+  text-align: right;
+  font-family: 'DM Sans', sans-serif;
+}
