@@ -1,4 +1,61 @@
+/* THIS IS A MESS, I NEED TO SORT IT OUT!!!*/
+
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans&family=Racing+Sans+One&display=swap');
+
+nav {
+  box-sizing: border-box;
+  display: inline-block;
+  width: 800px;
+  margin-left: -25px;
+}
+
+nav > ul {
+  padding: 0;
+  background-color: rgb(155, 226, 255);
+}
+
+nav > ul > li {
+  display: inline-block;
+}
+
+nav > ul > li > a {
+  padding: 20px;
+  display: inline-block;
+  text-decoration: none;
+  color: darkgreen;
+  font-weight: bold;
+}
+
+nav > ul > li > ul > li > a {
+  display: inline-block;
+  text-decoration: none;
+  color: darkgreen;
+  font-weight: bold;
+}
+
+nav > ul > li > ul {
+  position: absolute;
+  display: none;
+  padding: 0;
+}
+
+nav > ul > li:hover {
+  background-color: rgb(141, 205, 231);
+}
+
+nav > ul > li:hover > ul {
+  display: block;
+}
+
+nav > ul > li > ul > li {
+  display: block;
+  padding: 15px;
+  background-color: rgb(141, 205, 231);
+}
+
+nav > ul > li > ul > li:hover {
+  background-color: rgb(185, 211, 121);
+}
 
 body {
   font-family: 'DM Sans', sans-serif;
@@ -15,16 +72,42 @@ h1 {
   font-family: 'Racing Sans One', cursive;
 }
 
-.subPoint1 {
-  margin-left: 30px;
-  list-style-type: circle;
-}
-
-li {
+body > li {
   padding-bottom: 5px;
 }
 
 footer {
   text-align: right;
   font-family: 'DM Sans', sans-serif;
+}
+
+body > ul > li > ul {
+  display: none;
+}
+
+body > ul > li:hover > ul {
+  display: contents;
+}
+
+body > ul > li > ul > li {
+  background-color: tomato;
+  list-style-type: none;
+  display: inline-block;
+  padding: 2px 5px;
+  color: white;
+}
+
+body > ul > li > ul > li > a {
+  color: darkblue;
+  text-decoration: none;
+}
+
+body > p > strong > a {
+  text-decoration: none;
+  color: green;
+}
+
+body > ul > li > a {
+  text-decoration: none;
+  color: green;
 }
